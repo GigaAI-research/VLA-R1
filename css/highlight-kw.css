@@ -1,0 +1,6 @@
+.hsmr {
+    font-weight: bold;
+    color: #7e7e7e;
+}
+.hsmr span:nth-child(2) { color: #b7a493;}
+.hsmr span:nth-child(3) { color: #85a6b7;}
