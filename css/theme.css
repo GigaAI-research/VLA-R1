@@ -1,0 +1,240 @@
+code {
+    white-space: pre-wrap;
+}
+
+h1 {
+    font-family: 'Philosopher';
+}
+
+body {
+    font-family: 'optima', 'Philosopher';
+    font-size: medium;
+}
+
+
+p {
+    color: #595959;  /* Google slides default texts color. */
+}
+
+strong {
+    font-weight: bold;
+}
+
+section>h5 {
+    padding-bottom: 30px;
+}
+
+.col-12>h3 {
+    padding-top: 5px;
+}
+
+.results-section {
+    padding-bottom: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev {
+    left: 25px;
+}
+
+.carousel-control-next {
+    right: 25px;
+}
+
+.carousel-indicators {
+    display: none;
+    margin: 0;
+}
+
+/* check bootstrap-4.4.1.css for width parameters */
+@media (min-width: 1200px) {
+    .carousel-indicators {
+        left: 92.5%;
+        display: flex;
+    }
+}
+
+
+.carousel-indicators li {
+    background-color: transparent;
+    /* Hide the default Bootstrap indicators */
+    border: none;
+    /* Remove border */
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.indicator-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    text-indent: -999px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: width 0.1s, height 0.1s;
+    transition-timing-function: cubic-bezier(0,0,0.58,1); /* Custom curve */
+
+}
+
+.indicator-dot:hover {
+    width: 20px;
+    height: 15px;
+}
+
+.active .indicator-dot {
+    width: 25px;
+    height: 15px;
+    border-radius: 7px;
+}
+
+.row.sm-gutters {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row.sm-gutters>.col-md-4 {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row.sm-gutters>.col-md-6 {
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.row.sm-gutters>.col-md-12 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.renbody-zoom-container {
+    width: 80%;
+    /* Or whatever size you want */
+    aspect-ratio: 0.75;
+    /* Or whatever size you want */
+    overflow: hidden;
+    /* Hide the parts of the video outside the container */
+    object-fit: cover;
+    /* Make sure the video covers the container without stretching */
+    object-position: center;
+    /* Center the video */
+    border-radius: 5px;
+}
+
+.mobile-zoom-container {
+    width: 100%;
+    /* Or whatever size you want */
+    aspect-ratio: 0.75;
+    /* Or whatever size you want */
+    overflow: hidden;
+    /* Hide the parts of the video outside the container */
+    object-fit: cover;
+    /* Make sure the video covers the container without stretching */
+    object-position: center;
+    /* Center the video */
+    border-radius: 5px;
+    margin: 5px
+}
+
+.video-zoom-container {
+    overflow: hidden;
+    /* Hide the parts of the video outside the container */
+    object-fit: cover;
+    /* Make sure the video covers the container without stretching */
+    object-position: center;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.zoom-element {
+    transition: transform 0.2s ease-in-out;
+}
+
+.zoom-element:hover {
+    transform: scale(1.);
+}
+
+.nhr-zoom {
+    transform: scale(1.45);
+}
+
+.renbody-zoom {
+    transform: scale(1.65) translateY(2%);
+    border-radius: 5px;
+}
+
+.mobile-zoom {
+    transform: scale(1.65);
+    border-radius: 5px;
+}
+
+.zjumocap-zoom {
+    transform: scale(1.3);
+}
+
+video {
+    border-radius: 5px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.comparison-canvas {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.a16x9 {
+    aspect-ratio: 16/9;
+}
+
+.a4x3 {
+    aspect-ratio: 1352/1014;
+}
+
+.a1x1 {
+    aspect-ratio: 1;
+}
+
+.a16x9demo {
+    aspect-ratio: 3.05;
+}
+
+.a4x3demo {
+    aspect-ratio: 2.0;
+}
+
+.a1x1demo {
+    aspect-ratio: 1600/1672;
+}
+
+.selectable{
+    -webkit-touch-callout: all; /* iOS Safari */
+    -webkit-user-select: all; /* Safari */
+    -khtml-user-select: all; /* Konqueror HTML */
+    -moz-user-select: all; /* Firefox */
+    -ms-user-select: all; /* Internet Explorer/Edge */
+    user-select: all; /* Chrome and Opera */
+}
