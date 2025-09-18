@@ -51,11 +51,12 @@
             <a href="#">Angen Ye</a><sup>1*</sup>&nbsp;
             <a href="https://steve-zeyu-zhang.github.io/">Zeyu Zhang</a><sup>1*</sup>&nbsp;
             <a href="#">Boyuan Wang</a><sup>1*</sup>&nbsp;
-            <a href="http://www.zhengzhu.net/">Zheng Zhu</a><sup>1†</sup>&nbsp;
-            <a href="#">Guan Huang</a><sup>1</sup>
+            <a href="#">Xiaofeng Wang</a><sup>1</sup>&nbsp;
+            <a href="#">Dapeng Zhang</a><sup>2</sup>&nbsp;
+            <a href="http://www.zhengzhu.net/">Zheng Zhu</a><sup>1†</sup>
             <p>
               <sup>1</sup>GigaAI &nbsp;&nbsp;&nbsp;
-              <!-- <sup>2</sup>Zhejiang University -->
+              <sup>2</sup>CUHK-Shenzhen
                <br>
                <sup>*</sup>Equal contribution. &nbsp;&nbsp;&nbsp;
                <sup>†</sup>Corresponding author.
@@ -119,13 +120,13 @@
             (3) Comprehensive benchmarks, simulation, and real-world evaluation demonstrating the superiority of VLA-R1. <br>
           </p>
 
-          <div id="TeaserVideos">
-            <video autoplay muted loop playsinline style="max-width:100%; border-radius:8px;">
-              <source src="videos/veo.mp4" type="video/mp4">
+          <div id="TeaserVideos" style="text-align: center;">
+            <video autoplay muted loop playsinline controls style="max-width:80%; border-radius:8px;">
+              <source src="videos/teaser.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
-          <br>
+          <br>          
           
 
         </div>
@@ -142,14 +143,16 @@
 
           <h3>Method</h3>
           <hr style="margin-top: 0px" />
+
           <div style="display: flex; justify-content: center;">
-            <img src="assets/HSMR-pipeline_v3.png" width="100%" />
+            <img src="assets/arch2_page-0001.jpg" style="max-width:80%; border-radius:8px;" />
           </div>
 
-          <p>
-            <strong>Overview of our VLA-R1</strong>.
-            xxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+          <p style="text-align: center; max-width:80%; margin: 0 auto;">
+            <strong>Overall architecture of VLA-R1.</strong>
+            The system operates in two stages. Stage I applies supervised fine-tuning (SFT) augmented with Chain-of-Thought (CoT) supervision to endow the multimodal model with foundational reasoning, enabling it to generate trajectories or affordance regions conditioned on images and instructions; a downstream control stack then converts these outputs into joint-level robot commands. Stage II introduces reinforcement learning with verifiable rewards (GRPO) to further refine both reasoning quality and action execution, yielding more robust cross-task generalization and resilience in complex scenarios.
           </p>
+
 
         </div>
       </div>
