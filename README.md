@@ -7,9 +7,21 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Corresponding author.
 >
-> ### [Paper]() | [Website](https://gigaai-research.github.io/VLA-R1) | [Data]() | [Models]() | [HF Paper]()
+> ### [Paper](https://arxiv.org/abs/2510.01623) | [Website](https://gigaai-research.github.io/VLA-R1) | [Data]() | [Models]() | [HF Paper](https://huggingface.co/papers/2510.01623)
 
 https://github.com/user-attachments/assets/5a3cbb8b-5a2e-4126-9590-86db8958b7fa
+
+## ✏️ Citation
+If you find our code or paper helpful, please consider starring ⭐ us and citing:
+```bibtex
+@article{ye2025vlar1,
+  title={VLA-R1: Enhancing Reasoning in Vision-Language-Action Models},
+  author={Ye, Angen and Zhang, Zeyu and Wang, Boyuan and Wang, Xiaofeng and Zhang, Dapeng and Zhu, Zheng},
+  journal={arXiv preprint arXiv:2510.01623},
+  year={2025}
+}
+```
+
 
 
 
