@@ -9,7 +9,7 @@ This is the official repository for the paper:
 >
 > ### [Paper](https://arxiv.org/abs/2510.01623) | [Website](https://gigaai-research.github.io/VLA-R1) | [Data]() | [Models]() | [HF Paper](https://huggingface.co/papers/2510.01623)
 
-https://github.com/user-attachments/assets/5a3cbb8b-5a2e-4126-9590-86db8958b7fa
+https://github.com/user-attachments/assets/df8c2ae5-59e7-4119-8bb7-6712fcd93246
 
 ## ✏️ Citation
 If you find our code or paper helpful, please consider starring ⭐ us and citing:
@@ -21,6 +21,7 @@ If you find our code or paper helpful, please consider starring ⭐ us and citin
   year={2025}
 }
 ```
+
 
 
 
