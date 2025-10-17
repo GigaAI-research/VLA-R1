@@ -23,10 +23,10 @@ bash RFT_training/train_utils/run_vla_r1_3b.sh
 ```
 
 ## Inference
-、、、
+```
 python scripts/server.py
 python scripts/inference.py
-、、、 
+```
 
 ## ✏️ Citation
 If you find our code or paper helpful, please consider starring ⭐ us and citing:
