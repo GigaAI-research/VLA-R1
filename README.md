@@ -12,8 +12,21 @@ This is the official repository for the paper:
 https://github.com/user-attachments/assets/df8c2ae5-59e7-4119-8bb7-6712fcd93246
 
 ## Create environment using Conda
+```
 conda env create -f environment.yml
 conda activate vla_r1
+```
+
+## Training
+```
+bash RFT_training/train_utils/run_vla_r1_3b.sh
+```
+
+## Inference
+、、、
+python scripts/server.py
+python scripts/inference.py
+、、、 
 
 ## ✏️ Citation
 If you find our code or paper helpful, please consider starring ⭐ us and citing:
