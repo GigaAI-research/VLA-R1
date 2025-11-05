@@ -18,7 +18,11 @@ conda activate vla_r1
 ```
 ## Model
 
+huggingface-cli download --repo-type model --resume-download GigaAI-Research/vla-r1
+
 ## Dataset
+
+huggingface-cli download --repo-type dataset --resume-download GigaAI-Research/vla_r1
 
 ## Training
 ```
