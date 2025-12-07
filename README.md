@@ -7,7 +7,7 @@ This is the official repository for the paper:
 >
 > \*Equal contribution. <sup>†</sup>Corresponding author.
 >
-> ### [Paper](https://arxiv.org/abs/2510.01623) | [Website](https://gigaai-research.github.io/VLA-R1) | [Data]() | [Models]() | [HF Paper](https://huggingface.co/papers/2510.01623)
+> ### [Paper](https://arxiv.org/abs/2510.01623) | [Website](https://gigaai-research.github.io/VLA-R1) | [Data](https://huggingface.co/datasets/GigaAI-Research/vla_r1) | [Models](https://huggingface.co/GigaAI-Research/vla-r1) | [HF Paper](https://huggingface.co/papers/2510.01623)
 
 https://github.com/user-attachments/assets/df8c2ae5-59e7-4119-8bb7-6712fcd93246
 
@@ -45,6 +45,7 @@ If you find our code or paper helpful, please consider starring ⭐ us and citin
   year={2025}
 }
 ```
+
 
 
 
